@@ -3,6 +3,7 @@
 #include "dict.h"
 #include "list.h"
 /* The following code implements a dictionary that takes integer keys and integer values. We then implement sets using dictionaries.*/
+// New comment.
 typedef struct{
     list** buckets;
     int size;
